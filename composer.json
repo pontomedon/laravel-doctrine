@@ -1,12 +1,12 @@
 {
-    "name": "atrauzzi/laravel-doctrine",
+    "name": "pontomedon/laravel-doctrine",
     "description": "An ORM for a Framework for Web Artisans",
     "keywords": ["doctrine", "laravel", "orm"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Alexander Trauzzi",
-            "email": "atrauzzi@gmail.com"
+            "name": "Lukas Rössler",
+            "email": "pontomedon@gmail.com"
         }
     ],
     "require": {
