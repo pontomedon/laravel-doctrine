@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Atrauzzi\\LaravelDoctrine": "src/"
+            "pontomedon\\LaravelDoctrine": "src/"
         }
     },
     "minimum-stability": "dev"
