@@ -9,12 +9,6 @@
 			"email": "pontomedon@gmail.com"
 		}
 	],
-	"repositories": [
-		{
-			"type": "vcs",
-			"url": "https://github.com/l3pp4rd/DoctrineExtensions"
-		}
-	],
 	"require": {
 		"php": ">=5.3.0",
 		"illuminate/support": "4.0.x",
