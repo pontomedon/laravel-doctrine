@@ -13,7 +13,7 @@
 		"php": ">=5.3.0",
 		"illuminate/support": "4.0.*",
 		"doctrine/orm": "2.*",
-		"l3pp4rd/DoctrineExtensions": "2.3.*"
+		"l3pp4rd/DoctrineExtensions": "v2.3.*"
 	},
 	"autoload": {
 		"psr-0": {
