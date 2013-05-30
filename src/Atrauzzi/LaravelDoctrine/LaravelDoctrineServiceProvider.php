@@ -53,11 +53,8 @@ class LaravelDoctrineServiceProvider extends ServiceProvider {
 			 */
 			$model_path = base_path() . '/app/models';
 			
-			$doctrine_namespace = 'Doctrine';
 			$entity_namespace = 'Entity';
 			$proxy_namespace = 'Proxies';
-			$repository_namespace = 'Repositories';
-			$gedmo_namespace = 'Gedmo';
 			
 			$isDevMode = (App::environment() == 'development');
 			
