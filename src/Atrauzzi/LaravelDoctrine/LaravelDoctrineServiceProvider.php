@@ -112,7 +112,7 @@ class LaravelDoctrineServiceProvider extends ServiceProvider {
 			$annotationDriver = new AnnotationDriver($cachedAnnotationReader, array($model_path . '/' . $entity_namespace));
 			$driverChain = new DriverChain();
 			// Hook Gedmo into the Metadata Driver
-			Gedmo\DoctrineExtensions::registerAbstractMappingIntoDriverChainORM($driverChain,$cachedAnnotationReader);
+			\Gedmo\DoctrineExtensions::registerAbstractMappingIntoDriverChainORM($driverChain,$cachedAnnotationReader);
 			$driverChain->addDriver($annotationDriver, 'Entity');
 			$config->setMetadataDriverImpl($driverChain);
 	
