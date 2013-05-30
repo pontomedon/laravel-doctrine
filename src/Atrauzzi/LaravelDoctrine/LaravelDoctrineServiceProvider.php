@@ -127,19 +127,6 @@ class LaravelDoctrineServiceProvider extends ServiceProvider {
 			$config->setAutoGenerateProxyClasses($isDevMode);
 			
 			/*
-			 * create database connection options
-			 */
-			$connectionOptions = array(
-					'driver'		=> 'pdo_mysql',
-					'user'			=> $params['username'],
-					'password'		=> $params['password'],
-					'host'			=> $params['hostname'],
-					'dbname'		=> $params['database'],
-					'charset'		=> $params['char_set'],
-					'driverOptions'	=> array('charset' => $params['char_set'])
-					);
-			
-			/*
 			 * add extensions
 			 */
 			$evm = new Doctrine\Common\EventManager();
