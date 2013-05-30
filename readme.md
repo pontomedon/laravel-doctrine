@@ -20,7 +20,7 @@ Add the service provider to your Laravel application in `app/config/app.php`. In
 
     'Atrauzzi\LaravelDoctrine\LaravelDoctrineServiceProvider',
 
-Then add the following to your `facades` array in the same file:
+Then add the following to your `facades` (`aliases` in Laravel 4) array in the same file:
 
     'Doctrine' => 'Atrauzzi\LaravelDoctrine\Support\Facades\Doctrine',
 
