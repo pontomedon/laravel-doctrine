@@ -119,7 +119,7 @@ class LaravelDoctrineServiceProvider extends ServiceProvider {
 			// Set up Logger
 			if($isDevMode)
 			{
-				$logger = new Doctrine\DBAL\Logging\Profiler;
+				$logger = new \Doctrine\DBAL\Logging\Profiler;
 				$config->setSQLLogger($logger);
 			}
 			
@@ -129,7 +129,7 @@ class LaravelDoctrineServiceProvider extends ServiceProvider {
 			/*
 			 * add extensions
 			 */
-			$evm = new Doctrine\Common\EventManager();
+			$evm = new \Doctrine\Common\EventManager();
 			$softdeleteListener = new \Gedmo\SoftDeleteable\SoftDeleteableListener();
 			$softdeleteListener->setAnnotationReader($cachedAnnotationReader);
 			$evm->addEventSubscriber($softdeleteListener);
